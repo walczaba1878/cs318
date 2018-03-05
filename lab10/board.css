@@ -1,0 +1,53 @@
+* {box-sizing: border-box;}
+body{
+    background-image: url(http://www.photoshopbuzz.com/wp-content/uploads/2012/07/cork.jpg);
+}
+.animal{
+    width: 450px;
+    border-width: 25px 25px 100px 25px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 10px 10px 10px black;
+}
+.pushpin{
+    width: 100px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+.photo{
+    display: inline-block;
+    position: relative;
+    margin: 50px;
+}
+@font-face {
+    font-family: Marker;
+    src: url(PermanentMarker.ttf);
+  }
+  .label{
+      font-family: Marker;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      font-size: 70px;
+      text-align: center;
+  }
+  #kitten{
+    top: 30px;
+    left: 20px;
+    transform: rotate(355deg);
+  }
+  #chinchilla{
+    top: 50px;
+    left: 30px;
+    transform: rotate(10deg);
+  }
+  #redpanda{
+    top: 40px;
+    left: 40px;
+  }
