@@ -1,0 +1,43 @@
+* {box-sizing: border-box;}
+
+#familymed{
+    background-image: url(https://www.marshfieldclinic.org/ProviderImages/64342.jpg);
+    background-size: 100%;
+}
+#urgent{
+    background-image: url(https://www.marshfieldclinic.org/ProviderImages/73619.jpg);
+    background-size: 100%;
+}
+#nurse{
+    background-image: url(https://www.marshfieldclinic.org/ProviderImages/99697.jpg);
+    background-size: 100%;
+}
+#psychology{
+    background-image: url(https://www.marshfieldclinic.org/PROVIDERIMAGES/234174.JPG);
+    background-size: 100%;
+}
+.photo{
+    height:250px;
+    width: 250px;
+    background-position:50% 20%;
+    display: inline-block;
+    border-radius:50%;
+    box-shadow: 10px 10px 10px lightgray;
+    position: relative;
+}
+.photo:hover{
+    box-shadow: 10px 10px 10px black;
+    top: 5px;
+    left:5px;
+}
+.name{
+    font-size: 24pt;
+    font-family: sans-serif;
+    color: lightpink;
+    text-shadow: 2px 2px black;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom:-10px;
+    text-align: center;
+}
