@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+p{
+    font-size: 18pt;
+}
+img{
+    width: 100%;
+}
+.quote{
+    background-color: rgb(85, 40, 22);
+    color: tan;
+    width: 75px;
+    position: absolute;
+    top: -10px;
+    left: 470px;
+}
+.quote2{
+    background-color: rgb(85, 40, 22);
+    color: tan;
+    width: 75px;
+    position: absolute;
+    top: -10px;
+    right: 30px;
+}
+.container{
+    position: relative;
+}
+@media (min-width: 900px){
+    .img1{
+        float: left;
+        padding-right: 20px;
+        width: 600px;
+    }
+    .img2{
+        float: right;
+        padding-left: 20px;
+        width: 600px;
+    }
+    .img3{
+        float: left;
+        padding-right: 20px;
+        width: 600px;
+    }
+    .img4{
+        width: 600px;
+        float: right;
+        padding-left: 20px;
+    }
+}
