@@ -1,0 +1,12 @@
+* {
+    box-sizing: border-box;
+}
+#selected {
+    background-color: rgb(247, 139, 131);
+}
+main {
+    text-align: center;
+}
+blockquote {
+    font-size: 16pt;
+}

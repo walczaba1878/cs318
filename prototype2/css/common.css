@@ -45,7 +45,9 @@ ul {
 }
 main {
     background-color: rgb(247, 139, 131);
-    text-align: center;
+}
+h1 {
+    margin: 0;
 }
 footer {
     text-align: center;

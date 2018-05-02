@@ -1,0 +1,6 @@
+* {
+    box-sizing: border-box;
+}
+#selected {
+    background-color: rgb(247, 139, 131);
+}

@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+#selected {
+    background-color: rgb(247, 139, 131);
+}
+main {
+    padding: 10px 100px 10px 100px;
+}
