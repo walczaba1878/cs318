@@ -5,8 +5,20 @@
     background-color: rgb(247, 139, 131);
 }
 main {
-    text-align: center;
+    padding: 10px 100px 10px 100px;
 }
-blockquote {
+#tag {
+    text-align:center;
+    font-size: 14pt;
+}
+main>p {
     font-size: 16pt;
+}
+@media (max-width: 750px) {
+    main {
+        padding: 10px 50px 10px 50px;
+    }
+    #tag {
+        text-align: right;
+    }
 }
